@@ -7,5 +7,5 @@ metadata:
 data:
   config.json: |-
     {
-      "API_URL": "https://jerryui5.c-46d70f2.kyma.shoot.live.k8s-hana.ondemand.com/"
+      "API_URL": "https://wugui5.c-79cbe95.kyma.shoot.live.k8s-hana.ondemand.com/"
     }

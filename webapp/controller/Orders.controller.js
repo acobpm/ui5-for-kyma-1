@@ -18,6 +18,7 @@ sap.ui.define(
       onInit: async function () {
         this.setViewModel();
         this.setDataModel();
+        // this.setDataModelWithMockData();
       },
 
       setDataModel: async function () {
@@ -29,8 +30,8 @@ sap.ui.define(
       },
 
       setDataModelWithMockData: async function () {
-        var url = API.getAPIURL();
-        const ordModels = models.createOrdersModel();
+        // var url = API.getAPIURL();
+        const ordModels = models.createOrdersModelWithMockData();
         this.getView().setModel(ordModels, "orders");
         this.toggleBusy();
       },
